@@ -1,0 +1,89 @@
+*, *:before, *:after {
+  position: relative;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 14x;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+body {
+  color: #eee;
+  background-color: #111;
+  margin: 75px 0 0 0;
+  padding: 0;
+}
+
+ul, ol {
+  margin: unset;
+  padding: unset;
+  list-style: none;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.flexed-head {
+  position: fixed;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+  margin-top: -75px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  z-index: 99999;
+  background-color: #111;
+}
+.flexed-head li {
+  display: inline-block;
+}
+.flexed-head a {
+  color: currentColor;
+  padding: 0;
+  text-decoration: none;
+  padding: 25px;
+}
+.flexed-head > .navigation, .flexed-head > .socials {
+  flex: 1 1 100%;
+}
+.flexed-head > .socials {
+  text-align: right;
+}
+.flexed-head > .logo {
+  flex: 0;
+  height: 45px;
+}
+.flexed-head > .logo img {
+  height: 100%;
+  transition: transform 1s ease-in-out;
+}
+.flexed-head > .logo img:hover {
+  transform: rotate(40deg);
+}
+@media only screen and (max-width: 960px) {
+  .flexed-head {
+    flex-direction: column;
+  }
+  .flexed-head .logo {
+    display: none;
+  }
+}

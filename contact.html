@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test Website</title>
+
+        <!-- we include font awesome first, just in case there happens to be conflicting classes -->
+        <link rel="stylesheet" href="assets/font-awesome/css/all.min.css" />
+
+        <link rel="icon" href="./assets/images/favicon.ico">
+        <link rel="stylesheet" href="./styles/main.css" />
+
+        <script>
+
+            let lipsum = `<h1 style="font-size: 48px">THIS IS THE TOP</h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam purus lectus, varius vel dolor ut, sollicitudin dignissim arcu. Suspendisse vehicula mauris sed velit iaculis congue. Quisque at ex bibendum sem tincidunt semper. Morbi venenatis ut leo vitae faucibus. In commodo ante nulla, et porta dui dignissim ultricies. Vestibulum fermentum ante lacus, a mollis neque consectetur in. Proin neque nibh, sodales at quam ac, aliquam laoreet velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc cursus tempor est, nec tincidunt mauris semper tincidunt. Cras nec velit nec purus sagittis posuere. Maecenas egestas elementum dolor, sit amet varius odio euismod nec. Praesent eu neque accumsan magna convallis finibus. Curabitur sed tincidunt enim. Nullam feugiat, turpis sed porta bibendum, mauris lectus consectetur urna, non interdum nulla tortor id purus. Praesent aliquet vitae dui sit amet malesuada. Cras fringilla purus ut justo mattis dapibus. Nunc vel turpis non dolor imperdiet vestibulum. Duis id interdum est, in egestas nunc. Cras turpis ante, viverra a gravida vitae, malesuada in enim. Sed a lorem id dolor egestas ultrices a non ipsum. Aliquam lobortis tempus nulla, a fermentum sem vestibulum quis. Proin quis fermentum ipsum, ut commodo libero. Nullam nisl tellus, finibus eget lacinia at, pellentesque at augue. Mauris feugiat accumsan fringilla. Mauris nec arcu justo. Aliquam pharetra interdum mauris, vestibulum maximus sapien commodo quis. Duis imperdiet pretium aliquet. Aliquam vitae lacus vitae risus laoreet rutrum quis quis lacus. Duis ullamcorper, justo a laoreet gravida, velit elit interdum quam, non condimentum nisi turpis vel massa. Aenean sagittis rhoncus velit, posuere cursus nulla feugiat a. Pellentesque ut ligula nulla. Aenean venenatis arcu urna, at tincidunt dui dictum id. Duis vel elit lacinia, sodales diam et, rutrum ex. Nulla sed tellus sit amet lacus porttitor congue et eget sem. Sed auctor orci vel ex vestibulum, vel euismod nibh sodales. Suspendisse imperdiet sollicitudin odio non aliquam. Suspendisse nec sem nunc. Vestibulum blandit vehicula luctus. Maecenas ipsum arcu, luctus nec euismod a, maximus nec massa. Duis sem velit, ullamcorper sed vulputate sed, condimentum et metus. Proin euismod vel orci sed lacinia. Fusce eget elit rhoncus, varius enim quis, posuere elit. Nullam eget elit quam. Donec dolor magna, ornare a mattis nec, dictum ac tellus. Proin dignissim sollicitudin odio, sed congue erat dictum ut. Donec condimentum lorem ac purus sagittis dapibus. In sit amet eleifend eros. `;
+
+            window.addEventListener('DOMContentLoaded', () => {
+                const btn = document.createElement('div');
+                btn.innerHTML = lipsum.repeat(10);
+                document.body.append(btn);
+            });
+        </script>
+    </head>
+    <body>
+      
+    <header class="container flexed-head">
+        <!-- <nav class="header-navi"> -->
+        <nav class="navigation">
+            <ul class="portal">
+                <li><a href="wip.html">Wip</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="coursework.html">Studies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="logo">
+            <a href="index.html"><img src="assets/images/SQ.png" alt=""></a>
+        </div>
+
+            <ul class="socials">
+                <li><a href="https://dribbble.com" target="blank"><i class="fab fa-dribbble"></i></a></li>
+                <li><a href="https://github.com" target="blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://linkedin.com" target="blank"><i class="fab fa-linkedin"></i></a></li>
+
+            </ul>
+    </header>
+
+  
+    
+
+ 
+    </body>
+</html>
+
