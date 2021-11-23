@@ -1,5 +1,5 @@
 # Personal-Website
-A repository containing my work building a personal website, originally intended as a course exercise in basic html, it quickly became a personal project for learning html css and JS practically
+A repository containing my work building a personal website, originally intended as a course exercise in basic html, it quickly became a personal project for learning html css and JS practically, with later exploration into flask and python on the backend
 
 v0.1 - Originally intended to be the first upload, original files lost. The base website was was a basic html skeleton with snippets of css, mainly created as a course project for learning about webscraping later on. 
 
